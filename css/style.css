@@ -1,0 +1,25 @@
+:root{
+    --brandColor: #06121E;
+    --primaryColor: #006DA7;
+    --hoverColor: #00A6FF;
+    --fontSizeRegular: 18px;
+    --fontSizeP: 20px;
+    --fontSizeH1: 48px;
+    --fontSizeH2: 36px;
+}
+
+body{
+    font-family: "Orbitron", sans-serif;
+}
+
+.header{
+    background-color: var(--primaryColor);
+    font-size: var(--fontSizeRegular);
+    font-family: orbitr;
+}
+
+a{ 
+    display: flex;
+    text-decoration: none;
+    color: #ffff;
+}
