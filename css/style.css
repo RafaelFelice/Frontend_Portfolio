@@ -49,3 +49,7 @@ h2{
     font-family: "Inter", sans-serif;
     font-size: var(--fontSizeBtn);
 }
+
+.apresentacao p{
+    font-size: var(--fontSizeBtn);
+}
