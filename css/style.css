@@ -1,4 +1,4 @@
-:root{
+:root {
     --brandColor: #06121E;
     --primaryColor: #006DA7;
     --hoverColor: #00A6FF;
@@ -8,18 +8,52 @@
     --fontSizeH2: 36px;
 }
 
-body{
+body {
     font-family: "Orbitron", sans-serif;
+    background-color: var(--brandColor);
+    color: #ffff;
 }
 
-.header{
+.header {
     background-color: var(--primaryColor);
     font-size: var(--fontSizeRegular);
-    font-family: orbitr;
 }
 
-a{ 
+a {
     display: flex;
     text-decoration: none;
     color: #ffff;
+}
+
+.footer {
+    color: #fff;
+    font-size: var(--fontSizeRegular);
+    padding: 20px 0;
+}
+
+.footer-background {
+    background-color: rgba(0, 109, 167, 0.5);
+    height: 70px;
+    border-radius: 10px;
+    padding: 0 15px;
+}
+
+.footer-text {
+    font-size: 16px;
+}
+
+.social-icons .social-icon {
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: color 0.3s ease;
+    
+}
+
+.social-icons .social-icon:hover {
+    color: var(--hoverColor);
 }
