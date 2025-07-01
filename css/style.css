@@ -6,20 +6,46 @@
     --fontSizeP: 20px;
     --fontSizeH1: 48px;
     --fontSizeH2: 36px;
+    --fontSizeBtn: 16px;
 }
 
 body{
     font-family: "Orbitron", sans-serif;
+    background-color: var(--brandColor);
 }
 
 .header{
     background-color: var(--primaryColor);
     font-size: var(--fontSizeRegular);
-    font-family: orbitr;
 }
 
 a{ 
     display: flex;
     text-decoration: none;
     color: #ffff;
+}
+
+p{
+    font-size: var(--fontSizeP);
+    color: #ffff;
+    font-family: "Inter", sans-serif;
+}
+
+h1{
+    font-size: var(--fontSizeH1);
+    color: #ffff;
+}
+
+h2{
+    font-size: var(--fontSizeH2);
+    color: #ffff;
+}
+
+.meu-nome{
+    font-family: "Orbitron", sans-serif;
+}
+
+.btn{
+    font-family: "Inter", sans-serif;
+    font-size: var(--fontSizeBtn);
 }
