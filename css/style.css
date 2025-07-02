@@ -1,6 +1,6 @@
 :root {
     --brandColor: #06121E;
-    --primaryColor: #006DA7;
+    --primaryColor:rgba(0, 109, 167, 0.5);
     --hoverColor: #00A6FF;
     --fontSizeRegular: 18px;
     --fontSizeP: 20px;
@@ -48,6 +48,19 @@ h2 {
 
 .btn {
     font-family: "Inter", sans-serif;
+    font-size: var(--fontSizeBtn);
+    border-color: var(--hoverColor);
+    color: var(--hoverColor);
+    height: 40px;
+    width: 156px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: var(--hoverColor);
+}
+
+.apresentacao p {
     font-size: var(--fontSizeBtn);
 }
 

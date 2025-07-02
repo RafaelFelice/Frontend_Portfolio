@@ -18,44 +18,97 @@
 
     <header class="header">
 
-        <div class="container d-flex justify-content-between">
+        <div class="container">
 
-            <img class="logo-portfolio" src="img/Logo.svg" alt="Logo Portfolio">
 
-            <nav class="menu-header d-flex gap-4 text-uppercase m-4">
+            <div class="row d-flex justify-content-between">
 
-                <a href="#">Início</a>
-                <a href="#">sobre mim</a>
-                <a href="#">Projetos</a>
-                <a href="#">Contato</a>
+                <div class="col-6 mt-3 mb-3">
 
-            </nav>
+                    <img class="logo-portfolio" src="img/Logo.svg" alt="Logo Portfolio">
+
+                </div>
+
+                <nav class="menu-header col-6 d-flex justify-content-end icon-link text-uppercase gap-4">
+
+                    <a href="#">Início</a>
+                    <a href="#">sobre mim</a>
+                    <a href="#">Projetos</a>
+                    <a href="#">Contato</a>
+
+                </nav>
+
+            </div>
 
         </div>
 
     </header>
 
-    <section class="banner container">
+    <section class="banner">
 
-        <div class="row align-items-center mt-5">
+        <div class="container">
 
-            <div class="info-desenvolvedor col-lg-6 text-start">
-                <p class="meu-nome mb-0">Téo Teixeira</p>
-                <h1 class="titulo-banner mb-4"><span style="color: #00A6FF;">Desenvolvedor</span><br>Front-End</h1>
-                <p class="info-txt mb-4">Um desenvolvedor Front-End animado por natureza (literalmente). Apaixonado por
-                    tecnologia Gosto de transformar códigos em <strong>experiências visuais</strong>.</p>
+            <div class="row align-items-center mt-5">
 
-                <button class="btn btn-outline-info">Meus Projetos</button>
-                <button class="btn btn-outline-info">Download CV</button>
+                <div class="info-desenvolvedor col-lg-6 text-start">
+                    <p class="meu-nome mb-0">Téo Teixeira</p>
+                    <h1 class="titulo-banner mb-4"><span style="color: #00A6FF;">Desenvolvedor</span><br>Front-End</h1>
+                    <p class="info-txt mb-4">Um desenvolvedor Front-End animado por natureza (literalmente). Apaixonado
+                        por
+                        tecnologia Gosto de transformar códigos em <strong>experiências visuais</strong>.</p>
+
+                    <button class="btn btn-outline-info">Meus Projetos</button>
+                    <button class="btn btn-outline-info">Download CV</button>
+                </div>
+
+                <div class="info-imagem col-lg-6">
+                    <img src="img/Teo.svg" alt="Imagem do Desenvolvedor">
+                </div>
+
+                <footer class="footer-banner mt-5">
+                    <img src="img/divisor1.png" alt="Divisor de sessões">
+                </footer>
+
             </div>
 
-            <div class="info-imagem col-lg-6">
-                <img src="img/Teo.svg" alt="Imagem do Desenvolvedor">
+        </div>
+
+    </section>
+
+    <section class="apresentacao">
+
+        <div class="container">
+
+            <div class="row align-items-center mt-5">
+
+                <div class="col">
+                    <img src="img/Chaves.svg" alt="Símbolo do Pi">
+                </div>
+
+                <div class="col">
+                    <h2 class="titulo-apresentacao mb-4">Quem é Téo Teixeira</h2>
+                    <p>Meu nome é Téo Teixeira, e desde que me entendo por gente, sou movido pela curiosidade — aquela
+                        vontade quase teimosa de entender como as coisas funcionam.
+                        Aqui compartilho ideias, projetos e tudo o que me ajuda a transformar códigos em experiências, e
+                        desafios em soluções reais.</p>
+                    <p>Escolhi a tecnologia como caminho, mas antes disso escolhi a lógica, a criação e a beleza dos
+                        padrões, que hoje se refletem em tudo o que faço.</p>
+                    <p>O símbolo do Pi (π) no meu logo não está ali por acaso: ele representa o infinito da descoberta,
+                        a
+                        matemática da vida, e o compromisso com soluções que não sejam apenas funcionais — mas
+                        inteligentes,
+                        equilibradas e humanas.</p>
+                    <p>Sou especializado em HTML, CSS, JavaScript, React, Angular e Wordpress — tecnologias que me
+                        permitem
+                        construir interfaces modernas e com foco total na experiência do usuário.</p>
+                </div>
+
             </div>
 
-            <footer class="footer-banner mt-5">
+            <footer class="footer-apresentacao mt-5">
                 <img src="img/divisor1.png" alt="Divisor de sessões">
             </footer>
+
 
         </div>
 
@@ -73,6 +126,7 @@
             </div>
         </div>
     </footer>
+
 
     <script src="js/bootstrap.bundle.js"></script>
 
