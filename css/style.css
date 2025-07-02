@@ -12,6 +12,7 @@
 body {
     font-family: "Orbitron", sans-serif;
     background-color: var(--brandColor);
+    color: #ffff;
 }
 
 .header {
@@ -50,6 +51,9 @@ h2 {
     font-size: var(--fontSizeBtn);
     border-color: var(--hoverColor);
     color: var(--hoverColor);
+    height: 40px;
+    width: 156px;
+    border-radius: 10px;
 }
 
 .btn:hover {
@@ -58,4 +62,37 @@ h2 {
 
 .apresentacao p {
     font-size: var(--fontSizeBtn);
+}
+
+.footer {
+    color: #fff;
+    font-size: var(--fontSizeRegular);
+    padding: 20px 0;
+}
+
+.footer-background {
+    background-color: rgba(0, 109, 167, 0.5);
+    height: 70px;
+    border-radius: 10px;
+    padding: 0 15px;
+}
+
+.footer-text {
+    font-size: 16px;
+}
+
+.social-icons .social-icon {
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: color 0.3s ease;
+
+}
+
+.social-icons .social-icon:hover {
+    color: var(--hoverColor);
 }
